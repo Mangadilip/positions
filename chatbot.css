@@ -1,0 +1,153 @@
+body{
+    background-color: black;
+}
+
+.border1 {
+    width: 250px;
+    height: 500px;
+    border: 6px solid  black;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right:auto ;
+    box-shadow: 0px 0px 40px blue;
+    background-color: white;
+    outline: 2px solid blue;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    
+    
+  }
+  .head{
+    height: 60px;
+   border-bottom: 1px solid white;
+  }
+  #time{
+    margin-left:25px;
+    margin-top: 10px;
+    /* display: inline-block */
+  }
+  #cam{
+    border: 2px solid black;
+    height: 10px;
+    width: 50px;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: -15px;
+    background-color: black;
+
+  }
+  #signal{
+  margin-top: -35px;
+  margin-left: 160px;
+  }
+  #battery{
+    margin-top: -43px;
+    margin-left: 200px;
+  }
+  #back-arrow{
+    margin-top: -10px;
+    margin-left: 3px;
+
+  }
+  #dp{
+    border: 2px solid;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: -30px;
+    overflow: hidden;
+  }
+  #name{
+    margin-top: -20px;
+    margin-left: 50px;
+    font-size:small;
+  }
+  #online{
+    margin-left: 4px;
+  }
+  
+
+  #camera{
+    margin-top: -30px;
+    margin-left: 170px;
+  }
+  #phone{
+    margin-top: -26px;
+    margin-left: 202px;
+  }
+  #dots{
+    margin-top: -25px;
+    margin-left: 230px;
+  }
+  
+  #chat{
+    height: 390px;
+    width: 300px;
+    overflow:hidden;
+    /* overflow: scroll; */
+    overflow-y:scroll;
+    position: relative;
+    /* display: none; */
+
+  }
+
+  
+  #chat::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .sent{
+    padding: 5px;
+    background-color:#f9ecde;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 5px ;
+    margin-left:55px;
+    margin-right:55px;
+    font-size: small;
+    
+    
+  }
+  .received{
+    padding: 5px;
+    background-color: rgb(205, 255, 205);
+    margin-top: 5px;
+    border-radius: 20px;
+    display: inline-block ;
+    margin-right: auto;
+    font-size: small;
+    margin-left: 5px;
+    width: 200px;
+  }
+  .sentt{
+    padding: 5px;
+    background-color:#f9ecde;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 5px ;
+    margin-left:125px;
+    
+    margin-right: 5px;
+    font-size: small;
+
+  }
+  
+  
+    /* #emoji{
+    margin-left: 20px;
+    margin-top: -250px;
+    display: block;
+    position: relative;
+    margin-left: 15px;
+  }
+  
+  #message{
+    
+   border-radius: 50px;
+    position: relative;
+    display: inline;
+    margin-left: 20PX;
+    margin-top: -2pxPX;
+    height: 20PX;
+  } */
